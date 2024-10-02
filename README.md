@@ -4,7 +4,7 @@ Brittney Daniel
 
 Web Game Assignment
 
-NAME: Race Against the Clock: Dr. Cumbie's Time Tangle
+NAME: Race Against the Clock
 
 October 1st, 2024
 
