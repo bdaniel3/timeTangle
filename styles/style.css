@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-fabric.png");
+}
+
+#game-area {
+  margin: 50px auto;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  background-color: lightgray;
+}
+
+#game-piece {
+  z-index: 1;
+}
+#game-piece, #target-area, .dummy-target{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+}
+
+#target-area {
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+#dummy-target-1 {
+  top: 0;
+  left: 350px;
+  z-index: 0;
+}
+
+#dummy-target-2 {
+  bottom: 100px;
+  left: 50px;
+  z-index: 0;
+}

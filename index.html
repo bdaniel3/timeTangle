@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CumbiesTimeTangle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Game</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="change this to your github source code link" target="_blank">Source Code</a></li>
+        <li class="nav-item"><a class="nav-link" href="link to nu validation with source code inputted">Nu Valid</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First row: Game Name and Instructions -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Race Against the Clock: Dr. Cumbie's Time Tangle</h1>
+      <p>How to play: It's almost time for class, Drag Dr. Cumbie to the correct time.</p>
+    </div>
+  </div>
+
+  <!-- Second row: Game piece and interaction -->
+  <div class="row">
+    <div class="col-12">
+      <div id="game-area">
+        <img id="game-piece" class="draggable" src="https://cadit.anahuac.mx/n/sites/default/files/claustro/fotografias/Barry%20A.%20Cumbie.jpg" alt="Game Piece">
+        
+        <img id="target-area" src="https://etc.usf.edu/clipart/33700/33714/nclock-02-00_33714_lg.gif" alt="Target Area">
+        
+        <img class="dummy-target" src="https://etc.usf.edu/clipart/33700/33724/nclock-02-10_33724_lg.gif" alt="Dummy Target 1" id="dummy-target-1">
+                                                                              
+        <img class="dummy-target" src="https://etc.usf.edu/clipart/33700/33709/nclock-01-55_33709_lg.gif" alt="Dummy Target 2" id="dummy-target-2">
+                                                                                           
+      </div>
+      <p id="game-result"></p>
+      <button id="reset-game" class="btn btn-primary">Reset Game</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-light text-center">
+  <p>Brittney Daniel 2024</p>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script><script  src="scripts/script.js"></script>
+
+</body>
+</html>
