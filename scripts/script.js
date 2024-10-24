@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     // Check if the game piece is at the real target
     if (Math.abs(pieceOffset.left - targetOffset.left) < 20 && Math.abs(pieceOffset.top - targetOffset.top) < 20) {
-      $("#game-result").text("2 o-clock on a Thursday. Welcome to your favorite class I'm your host Barry Cumbie.");
+      $("#game-result").text("2 o-clock on a Thursday. Welcome to your favorite class, I'm your host Barry Cumbie.");
     }
     // Check if the game piece is at a dummy target (failure)
     else if (Math.abs(pieceOffset.left - dummy1Offset.left) < 20 && Math.abs(pieceOffset.top - dummy1Offset.top) < 20 ||
